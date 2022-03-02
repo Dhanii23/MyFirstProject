@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 20%;
+}
+.nav-links{
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #ebebeb;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+    background: #d14d4d;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.text-box{
+	width: 80%;
+	color: #fff;
+	position: absolute;
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+}
+.text-box p{
+	font-size: 20px;
+	color: #fff;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	font size: 20px;
+	position: relative;
+	cursor: pointer;
+	padding: 10px;
+}
+.hero-btn:hover{
+    border: 1px solid #ff94c9;
+    background: #0000d1;
+}
+
+/*--------Course-------*/
+.Course{
+    text-align: center;
+	padding-top: 50px;
+	margin: auto;
+}
+h1{
+	font-size: 40px;
+}
+p{
+	font-size: 20px;
+}
+.course-col{
+	background: #eadbc8;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+/*-----campus-------*/
+.campus{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.campus-col{
+	position: relative;
+	flex-basis: 32%;
+	margin-bottom: 30px;
+}
+.campus-col img{
+    width: 120%;
+}
+
+/*-----facilities-------*/
+.facilities{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.fac-col{
+	padding-top: 30px;
+	position: relative;
+	flex-basis: 32%;
+}
+.fac-col img{
+    width: 50%;
+}
+
+/*-----Enroll-Now-----*/
+.Enroll-Now{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 150px;
+	background: #dec8ab;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 50px;
+	box-sizing: border-box;
+} 
+.AboutUs{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.About-col{
+	padding-top: 30px;
+	background: #e8e8e8;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+
+/*-----Courses Page-----*/
+.sub-header{
+	min-height: 50vh;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/courses.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.Course img{
+	width: 40%;
+}
+/*----About us page----*/
+.about-header{
+	min-height: 50vh;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/about.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.AboutUs img{
+	width: 40%;
+}
+
+/*----Enroll Now Page----*/
+.enroll-header{
+	min-height: 50vh;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/enroll.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+/*---Contact Page----*/
+.con-header{
+	min-height: 50vh;
+	width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/contact.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.contact-box{
+	border: 3px solid #141414;
+	margin-top: 50px 0;
+	padding: 10px 20px;
+	background-color: #ffbdde;
+	
+}
+.contact-box h3{
+	text-align: left;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.comment-form input, .comment-form textarea{
+	width: 100%;
+	padding: 20px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	background: #c2c2c2;
+}
+.comment-form btn{
+	margin: 10px 0;
+}
